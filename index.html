@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="creatAll()">
+    <div id="container">
+        <header>
+        
+            <h1>BloggiFy</h1>
+        </header>
+     
+        <div>
+
+            <section id="blog-form">
+    
+              
+    
+                <form id="create-post-form">
+                    <input type="text" placeholder="Title" id="title" required>
+                    <textarea placeholder="content" id="content" required></textarea>
+                    <button onclick="add()" type="submit1">Create Post</button>
+                </form>
+    
+    
+                <form id="update-post-form">
+                    <input type="text" placeholder="Title" id="title2" required>
+                    <textarea placeholder="content" id="content2" required></textarea>
+                    <button type="submit2">Create Post</button>
+                </form>
+    
+    
+    
+            </section>
+    
+            <section class="newsection">
+    
+    
+                <h2>Create New Post</h2>
+                <button id="submit3" onclick="creatPost()">New Post</button>
+                <form id="PostData">
+                   
+                </form>
+            </section>
+        </div>  
+            
+            
+    </div>
+
+
+</body>
+<script src="./script.js"></script>
+</html>

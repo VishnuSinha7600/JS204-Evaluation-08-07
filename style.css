@@ -1,0 +1,131 @@
+body{
+    background-color:gray;
+    color: white;
+}
+
+div#container{
+    width: 100%;
+    margin: auto;
+    /* background-color: gray; */
+}
+
+
+header h1{
+    text-align: center;
+    margin: auto;
+}
+
+div#container div{
+    width: 1300px;
+    margin: auto;
+}
+
+
+#create-post-form{
+    width: 300px;
+    height: 200px;
+  
+   
+}
+
+#create-post-form input{
+    padding-left: 20px;
+    font-size: 17px;
+   width: 80%;
+   height: 30px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 20px;
+   box-shadow: 5px 5px 15px gray;
+
+}
+
+#create-post-form textarea{
+    padding-left: 20px;
+    font-size: 17px;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px gray;
+ 
+ }
+
+ button{
+   
+     width: 100px;
+     height: 40px;
+     background-color: black;
+     color: white;
+     font-size: 15px;
+     border-radius: 10px;
+
+ }
+
+ 
+ button:hover{
+   
+   border: none;
+    background-color: white;
+    color: black;
+  
+}
+#blog-form{
+    display: flex;
+    padding: 50px;
+}
+
+
+
+#update-post-form{
+    width: 300px;
+    height: 200px;
+  
+   
+}
+
+#update-post-form input{
+    padding-left: 20px;
+    font-size: 17px;
+   width: 80%;
+   height: 30px;
+   border-radius: 10px;
+   border: none;
+   margin-bottom: 20px;
+   box-shadow: 5px 5px 15px gray;
+
+}
+
+#update-post-form textarea{
+    padding-left: 20px;
+    font-size: 17px;
+    width: 80%;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 15px gray;
+ 
+ }
+
+
+
+
+
+#create-post-form , #update-post-form{
+    display: none;
+}
+
+.newsection{
+    width: 1200px;
+    margin: auto;
+    /* text-align: center; */
+}
+
+#PostData div{
+    max-width:  1000px;
+    
+    /* background-color: red; */
+}
+
